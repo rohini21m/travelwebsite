@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.1/css/all.css"
+    />
+    
+   
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="Script.js"></script>
+    <title>Travel Cheap anywhere</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Travel Cheap anywhere</h1>
+    </div>
+    <div class="area">
+      <input  type ="text" class="arrival_airport_code" id="arrival_airport_code" placeholder="Arrival"></input>
+      <input type ="text"  class="departure_airport_code" id="departure_airport_code"  placeholder="Departure"></input>
+      <input type ="text"  class="flight_Class" id="flight_class"  placeholder="flight_class"></input>
+      <input  type="date" class="outboundPartialDate" id="outboundPartialDate"  placeholder="departure_date"
+        ></input
+      >
+    
+      
+      <button onclick ="getPrices()" type ="submit" id="search" aria-placeholder="search"><i class="fa fa-search"></i></button>
+    </div>
+    
+  </body>
+</html>
